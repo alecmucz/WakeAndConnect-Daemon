@@ -14,8 +14,8 @@ void readConfig (FILE &File, unordered_map<string,string> *sshContents) {
 }
 
 int main() {
-    startSever("XXX.XX.XXX.XXX", 56000);
-    unordered_map<string, string> map;
-    cout << DEFAULT_PATH << std::endl;
+    int server_fd = startSever("XXX.XXX.XX.XXX", 56000);
+    int client_fd = handleClient(server_fd);
+
     return 0;
 }

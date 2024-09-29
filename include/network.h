@@ -7,7 +7,8 @@
 
 #include <string>
 using namespace std;
+void stopServer(int server_fd);
 int startSever(const char *ipAddress, int port);
-void stopServer();
+int handleClient(int server_fd);
 
 #endif //WAKEANDCONNECT_NETWORK_H
