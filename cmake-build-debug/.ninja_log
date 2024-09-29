@@ -1,0 +1,14 @@
+# ninja log v5
+155	192	1727019390750809836	WakeandConnect	1e2f8fca80948489
+1	155	1727019390711808955	CMakeFiles/WakeandConnect.dir/main.cpp.o	76f2cf22d23b4db9
+3	135	1727488982166823545	CMakeFiles/WakeandConnect.dir/src/network.cpp.o	eb9e2a9936acb496
+2	269	1727488982301825982	CMakeFiles/WakeandConnect.dir/main.cpp.o	76f2cf22d23b4db9
+269	310	1727488982341826705	WakeandConnect	5cae5cc2847330bb
+2	132	1727549825335815197	CMakeFiles/WakeandConnect.dir/src/network.cpp.o	eb9e2a9936acb496
+2	262	1727549825465818121	CMakeFiles/WakeandConnect.dir/main.cpp.o	76f2cf22d23b4db9
+262	301	1727549825504818998	WakeandConnect	5cae5cc2847330bb
+1	240	1727550045298762025	CMakeFiles/WakeandConnect.dir/main.cpp.o	76f2cf22d23b4db9
+240	275	1727550045332762790	WakeandConnect	5cae5cc2847330bb
+3	183	1727634585099674935	CMakeFiles/WakeandConnect.dir/src/network.cpp.o	eb9e2a9936acb496
+3	266	1727634585182676840	CMakeFiles/WakeandConnect.dir/main.cpp.o	76f2cf22d23b4db9
+266	307	1727634585222677758	WakeandConnect	5cae5cc2847330bb
