@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(WakeandConnect main.cpp
         include/network.h
-        src/network.cpp)
+        src/network.cpp
+        include/protocols.h
+        src/protocols.cpp
+        include/server_config.h
+        src/server_config.cpp)

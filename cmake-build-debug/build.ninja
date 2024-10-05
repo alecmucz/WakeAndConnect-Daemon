@@ -61,6 +61,18 @@ build CMakeFiles/WakeandConnect.dir/src/network.cpp.o: CXX_COMPILER__WakeandConn
   OBJECT_DIR = CMakeFiles/WakeandConnect.dir
   OBJECT_FILE_DIR = CMakeFiles/WakeandConnect.dir/src
 
+build CMakeFiles/WakeandConnect.dir/src/protocols.cpp.o: CXX_COMPILER__WakeandConnect_unscanned_Debug /home/amucz0/DevProjects/WakeandConnect/src/protocols.cpp || cmake_object_order_depends_target_WakeandConnect
+  DEP_FILE = CMakeFiles/WakeandConnect.dir/src/protocols.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/WakeandConnect.dir
+  OBJECT_FILE_DIR = CMakeFiles/WakeandConnect.dir/src
+
+build CMakeFiles/WakeandConnect.dir/src/server_config.cpp.o: CXX_COMPILER__WakeandConnect_unscanned_Debug /home/amucz0/DevProjects/WakeandConnect/src/server_config.cpp || cmake_object_order_depends_target_WakeandConnect
+  DEP_FILE = CMakeFiles/WakeandConnect.dir/src/server_config.cpp.o.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/WakeandConnect.dir
+  OBJECT_FILE_DIR = CMakeFiles/WakeandConnect.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target WakeandConnect
@@ -69,7 +81,7 @@ build CMakeFiles/WakeandConnect.dir/src/network.cpp.o: CXX_COMPILER__WakeandConn
 #############################################
 # Link the executable WakeandConnect
 
-build WakeandConnect: CXX_EXECUTABLE_LINKER__WakeandConnect_Debug CMakeFiles/WakeandConnect.dir/main.cpp.o CMakeFiles/WakeandConnect.dir/src/network.cpp.o
+build WakeandConnect: CXX_EXECUTABLE_LINKER__WakeandConnect_Debug CMakeFiles/WakeandConnect.dir/main.cpp.o CMakeFiles/WakeandConnect.dir/src/network.cpp.o CMakeFiles/WakeandConnect.dir/src/protocols.cpp.o CMakeFiles/WakeandConnect.dir/src/server_config.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/WakeandConnect.dir
   POST_BUILD = :

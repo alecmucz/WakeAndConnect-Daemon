@@ -7,8 +7,7 @@
 
 #include <string>
 using namespace std;
-void stopServer(int server_fd);
-int startSever(const char *ipAddress, int port);
+std::pair<int, unordered_map<string, string>> startSever(const char *ipAddress, int port);
 int handleClient(int server_fd);
 
 #endif //WAKEANDCONNECT_NETWORK_H
